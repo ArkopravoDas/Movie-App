@@ -9,7 +9,7 @@ body {
   background-color: black;
   font-family: "Caudex", sans-serif;
   margin: 0;
-  align-items: stretch;
+ 
 }
 
 
@@ -56,6 +56,12 @@ header div h1 {
 main{
   display: flex;
   flex-wrap: wrap;
+  
+}
+
+.container {
+  align-content: center;
+  align-items: center
 }
 
 .movie {
@@ -67,11 +73,12 @@ main{
   margin: 1rem;
   width: 347px;
   padding: 1rem 1rem 1rem 1rem;
-  align-items: stretch;
+  
 }
  
 .movie img {
   width: 100%; 
+  
 }
 
 .movie-info {
